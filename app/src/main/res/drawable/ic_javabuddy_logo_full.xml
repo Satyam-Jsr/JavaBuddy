@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Coffee Cup (Java Symbol) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,40C36,36.69 38.69,34 42,34L66,34C69.31,34 72,36.69 72,40L72,46L36,46L36,40Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,46L72,46L72,65C72,69.42 68.42,73 64,73L44,73C39.58,73 36,69.42 36,65L36,46Z" />
+    
+    <!-- Steam -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,30C47,30 50,24 54,28C58,32 54,32 54,32" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,26C58,26 61,21 65,25C69,29 65,30 65,30" />
+    
+    <!-- Handle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,55C76,55 79,52 79,48C79,44 76,41 72,41" />
+    
+    <!-- Book pages -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M58,55L82,55L82,78L58,78Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,55L78,55L78,78L58,78Z" />
+    
+    <!-- Code lines on book -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,60L75,60L75,61L62,61Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,64L70,64L70,65L62,65Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,68L73,68L73,69L62,69Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,72L68,72L68,73L62,73Z" />
+
+    <!-- Text "J" for Java -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M48,55L54,55L54,65C54,68 52,70 49,70C46,70 44,68 44,65L46,65C46,67 47,68 49,68C51,68 52,67 52,65L52,55Z" />
+    
+    <!-- JavaBuddy Text -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,88L32,88L32,93C32,94 31,95 30,95C29,95 28,94 28,93L29,93C29,94 29.5,94.5 30,94.5C30.5,94.5 31,94 31,93L31,88Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,88L35,88L35,90L36,90C36.5,90 37,90.5 37,91C37,91.5 36.5,92 36,92L35,92L35,95L34,95L34,88Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,88L41,95L40,95L39.5,93L38.5,93L38,95L37,95L38,88L40,88ZM38.75,92L39.25,92L39,89L38.75,92Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,88L44,88L44,91L44.75,91L45.5,88L46.5,88L45.5,91.5C46,92 46,93 46,93.5C46,94.5 45,95 44,95L43,95L43,88ZM44,94L44.5,94C44.75,94 45,93.75 45,93.5C45,93.25 44.75,93 44.5,93L44,93L44,94Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M49,88L50,88L51,91L52,88L53,88L53,95L52,95L52,89.5L51,92.5L50,92.5L49,89.5L49,95L48,95L48,88Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,88L56,88L56,95L55,95L55,88Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,90.5C58,89 59,88 60,88C61,88 62,89 62,90.5L62,92.5C62,94 61,95 60,95C59,95 58,94 58,92.5L58,90.5ZM59,92.5C59,93.5 59.5,94 60,94C60.5,94 61,93.5 61,92.5L61,90.5C61,89.5 60.5,89 60,89C59.5,89 59,89.5 59,90.5L59,92.5Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,90.5C65,89 66,88 67,88C68,88 69,89 69,90.5L69,92.5C69,94 68,95 67,95C66,95 65,94 65,92.5L65,90.5ZM66,92.5C66,93.5 66.5,94 67,94C67.5,94 68,93.5 68,92.5L68,90.5C68,89.5 67.5,89 67,89C66.5,89 66,89.5 66,90.5L66,92.5Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M71,88L73,88L73,89L72,89L72,94L73,94L73,95L71,95L71,88Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M76,88L77,95L76,95L75.5,93L74.5,93L74,95L73,95L74,88L76,88ZM74.75,92L75.25,92L75,89L74.75,92Z" />
+</vector>

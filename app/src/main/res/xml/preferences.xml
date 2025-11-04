@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_experience">
+
+        <SwitchPreferenceCompat
+            android:key="pref_enable_card_animations"
+            android:title="@string/pref_enable_animations"
+            android:summary="@string/pref_enable_animations_summary"
+            android:defaultValue="true" />
+
+        <SwitchPreferenceCompat
+            android:key="pref_show_motivation"
+            android:title="@string/pref_show_motivation"
+            android:summary="@string/pref_show_motivation_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_ai">
+
+        <SwitchPreferenceCompat
+            android:key="pref_enable_ai_hinting"
+            android:title="@string/pref_enable_ai_hinting"
+            android:summary="@string/pref_enable_ai_hinting_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

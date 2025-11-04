@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Coffee Cup (Java Symbol) with enhanced visibility -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,40C36,36.69 38.69,34 42,34L66,34C69.31,34 72,36.69 72,40L72,46L36,46L36,40Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,46L72,46L72,65C72,69.42 68.42,73 64,73L44,73C39.58,73 36,69.42 36,65L36,46Z" />
+    
+    <!-- Steam -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M47,30C47,30 50,24 54,28C58,32 54,32 54,32" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,26C58,26 61,21 65,25C69,29 65,30 65,30" />
+    
+    <!-- Handle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M72,55C76,55 79,52 79,48C79,44 76,41 72,41" />
+    
+    <!-- Book pages with stronger color contrast -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M58,55L82,55L82,78L58,78Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,55L78,55L78,78L58,78Z" />
+    
+    <!-- Code lines on book with stronger color -->
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,60L75,60L75,61L62,61Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,64L70,64L70,65L62,65Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,68L73,68L73,69L62,69Z" />
+    <path
+        android:fillColor="#3F51B5"
+        android:pathData="M62,72L68,72L68,73L62,73Z" />
+
+    <!-- Text "J" for Java with enhanced visibility -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M48,55L54,55L54,65C54,68 52,70 49,70C46,70 44,68 44,65L46,65C46,67 47,68 49,68C51,68 52,67 52,65L52,55Z" />
+    
+    <!-- Adding a subtle outer glow effect -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M33,37C33,33 36,31 40,31L68,31C72,31 75,33 75,37L75,68C75,72.42 70.42,76 66,76L42,76C37.58,76 33,72.42 33,68L33,37Z" />
+</vector>

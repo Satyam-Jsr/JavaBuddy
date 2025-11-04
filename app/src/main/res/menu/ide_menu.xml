@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_run"
+        android:title="Run Code"
+        android:icon="@drawable/ic_play"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_clear"
+        android:title="Clear"
+        android:icon="@drawable/ic_clear"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save"
+        android:title="Save"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_load_template"
+        android:title="Load Template"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_toggle_mode"
+        android:title="Switch Compiler Mode"
+        app:showAsAction="never" />
+
+</menu>

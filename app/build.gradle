@@ -1,0 +1,90 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.example.javabuddy'
+    compileSdk 34
+
+    packaging {
+        resources {
+            excludes += [
+                'plugin.xml', 
+                'META-INF/ECLIPSE_.SF', 
+                'META-INF/ECLIPSE_.RSA',
+                'META-INF/eclipse.inf',
+                'META-INF/DEPENDENCIES',
+                'META-INF/LICENSE',
+                'META-INF/LICENSE.txt',
+                'META-INF/NOTICE',
+                'META-INF/NOTICE.txt'
+            ]
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.example.javabuddy"
+        minSdk 29
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.activity
+    implementation libs.constraintlayout
+    implementation libs.recyclerview
+    implementation libs.cardview
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
+    implementation libs.sora.editor
+    implementation libs.sora.language.java
+    implementation libs.room.runtime
+    implementation libs.viewpager2
+    implementation libs.fragment
+    implementation libs.preference
+    
+    // Eclipse JDT Core for real Java compilation - removed due to packaging conflicts
+    // Using custom compiler instead
+    
+    // Groq AI Integration dependencies
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.8'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.2'
+    implementation 'com.airbnb.android:lottie:6.4.0'
+    
+    annotationProcessor libs.room.compiler
+    
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+}

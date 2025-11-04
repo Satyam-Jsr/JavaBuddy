@@ -1,0 +1,70 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+.gradle/
+gradle/
+
+# Gradle files - keep wrapper jar
+.gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.DS_Store
+.externalNativeBuild
+.cxx
+captures/
+
+# Keystore files - Important for security
+*.jks
+*.keystore
+
+# API Keys (IMPORTANT - Never commit these!)
+**/apikeys.properties
+**/secrets.properties
+**/GroqApiService.java.bak
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*~
+.navigation
+tmp/
+
+# Documentation files to keep (don't ignore)
+!*.md
+!README.md

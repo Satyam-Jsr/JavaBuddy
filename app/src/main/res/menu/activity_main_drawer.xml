@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_lessons"
+            android:icon="@drawable/ic_book"
+            android:title="@string/menu_lessons" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_quiz"
+            android:title="@string/menu_quiz" />
+        <item
+            android:id="@+id/nav_ide"
+            android:icon="@drawable/ic_code"
+            android:title="@string/menu_ide" />
+        <item
+            android:id="@+id/nav_practice"
+            android:icon="@drawable/ic_practice"
+            android:title="@string/menu_practice" />
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_progress"
+            android:title="@string/menu_progress" />
+    </group>
+
+    <item android:title="AI Features">
+        <menu>
+            <item
+                android:id="@+id/nav_ai_quiz"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="AI Quiz Generator" />
+            <item
+                android:id="@+id/nav_ai_challenges"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="AI Programming Challenges" />
+        </menu>
+    </item>
+
+    <item android:title="@string/menu_other">
+        <menu>
+            <item
+                android:id="@+id/nav_bookmarks"
+                android:icon="@drawable/ic_bookmark"
+                android:title="@string/menu_bookmarks" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/menu_settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_debug"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Debug Info" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="code_background">#FFEEEEEE</color>
+    <color name="card_header_background">#FFF8F9FA</color>
+    
+    <!-- Primary colors -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark_color">#1976D2</color>
+    <color name="accent_color">#FF4081</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#8A000000</color>
+    <color name="text_tertiary">#61000000</color>
+    
+    <!-- Background colors -->
+    <color name="background_light">#FAFAFA</color>
+    <color name="background_dark">#121212</color>
+    
+    <!-- Difficulty colors -->
+    <color name="difficulty_beginner">#4CAF50</color>
+    <color name="difficulty_intermediate">#FF9800</color>
+    <color name="difficulty_advanced">#F44336</color>
+    
+    <!-- Status colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+    
+    <!-- Card colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_background_dark">#1E1E1E</color>
+    
+    <!-- Splash screen colors -->
+    <color name="splash_background">#EEF2FF</color>
+</resources>

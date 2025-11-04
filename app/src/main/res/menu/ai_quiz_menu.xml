@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save_quiz"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Save Quiz"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share_quiz"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share Quiz"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_take_quiz"
+        android:title="Take Quiz"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_clear_all"
+        android:title="Clear All"
+        app:showAsAction="never" />
+        
+    <item
+        android:id="@+id/action_rate_limit_status"
+        android:title="AI Usage Status"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_clear_code"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Clear Code"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save_challenge"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Save Challenge"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_run_code"
+        android:title="Run Code"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share_challenge"
+        android:title="Share Challenge"
+        app:showAsAction="never" />
+
+</menu>

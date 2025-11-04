@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_javabuddy"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round_javabuddy"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Light.JavaBuddy"
+        tools:targetApi="31">
+        
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+        
+        <activity
+            android:name=".activities.LessonActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".activities.QuizSelectionActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+            
+        <activity
+            android:name=".activities.LessonDetailActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.LessonActivity" />
+            
+        <activity
+            android:name=".activities.QuizActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".activities.QuizResultActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.QuizActivity" />
+            
+        <activity
+            android:name=".activities.IDEActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="unspecified" />
+            
+        <activity
+            android:name=".activities.PracticeActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <activity
+            android:name=".activities.ProblemSolvingActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.PracticeActivity" />
+            
+        <activity
+            android:name=".activities.ProgressActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+            
+        <!-- AI-Powered Activities -->
+        <activity
+            android:name=".activities.AIQuizGeneratorActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="AI Quiz Generator" />
+
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/settings_title" />
+
+        <activity
+            android:name=".activities.BookmarksActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/menu_bookmarks" />
+            
+        <activity
+            android:name=".activities.AIProgrammingChallengeActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="AI Programming Challenges" />
+            
+        <activity
+            android:name=".activities.DebugActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".activities.TimedTestActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Timed Test" />
+
+        <activity
+            android:name=".activities.AIHelpActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/ai_help" />
+
+        <activity
+            android:name=".activities.AIQuizPlayerActivity"
+            android:exported="false"
+            android:parentActivityName=".activities.AIQuizGeneratorActivity"
+            android:label="@string/ai_quiz_play_title" />
+            
+    </application>
+
+</manifest>
