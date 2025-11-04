@@ -135,20 +135,23 @@ Room Database (Version 6)
 
 ## 📚 Documentation
 
-### Code Explanation Guides
-- [Person 1 - Navigation & Startup](CODE_SCRIPT_PERSON_1.md)
-- [Person 2 - Learning System](CODE_SCRIPT_PERSON_2.md)
-- [Person 3 - IDE & Practice](CODE_SCRIPT_PERSON_3.md)
-- [Person 4 - Database Architecture](CODE_SCRIPT_PERSON_4.md)
+Comprehensive documentation for understanding and contributing to JavaBuddy:
 
-### Technical Guides
-- [Tech Guide 1 - Architecture & AI](TECH_PERSON_1_GUIDE.md)
-- [Tech Guide 2 - UI/UX Implementation](TECH_PERSON_2_GUIDE.md)
+### 🔍 Code Explanation Guides
+- [Person 1 - Navigation & Startup](docs/CODE_SCRIPT_PERSON_1.md) - SplashActivity, MainActivity, HomeFragment
+- [Person 2 - Learning System](docs/CODE_SCRIPT_PERSON_2.md) - LessonActivity, QuizActivity, RecyclerView patterns
+- [Person 3 - IDE & Practice](docs/CODE_SCRIPT_PERSON_3.md) - IDEActivity, compilers, practice features
+- [Person 4 - Database Architecture](docs/CODE_SCRIPT_PERSON_4.md) - Room entities, DAOs, database patterns
 
-### Additional Resources
-- [Master Index](MASTER_INDEX.md)
-- [Quick Reference](QUICK_REFERENCE_CARD.md)
-- [Code Explanation Summary](CODE_EXPLANATION_SUMMARY.md)
+### 🛠️ Technical Guides
+- [Tech Guide 1 - Architecture & AI](docs/TECH_PERSON_1_GUIDE.md) - System architecture, Groq API integration
+- [Tech Guide 2 - UI/UX Implementation](docs/TECH_PERSON_2_GUIDE.md) - Activities, Material Design, animations
+
+### 📖 Additional Resources
+- [Groq API Setup Guide](docs/GROQ_API_SETUP.md) - How to configure AI features
+- [Master Index](docs/MASTER_INDEX.md) - Complete documentation index
+- [Quick Reference](docs/QUICK_REFERENCE_CARD.md) - Quick feature overview
+- [Team Documentation Package](docs/TEAM_CODE_EXPLANATION_PACKAGE.md) - Complete team guide
 
 ## 🎯 Learning Path
 
